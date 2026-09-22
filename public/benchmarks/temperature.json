@@ -1,0 +1,135 @@
+{
+ "seeds": {
+  "first": 1100001,
+  "count": 512
+ },
+ "checkpoint": {
+  "championGeneration": 800,
+  "championValidation": 1574.7966796875003,
+  "circuitSha256": "4506e6ceca985c9d5e23e84b7366b9a62d65a65774b526063b3ee03b4f05433f"
+ },
+ "best": 0.1,
+ "rows": [
+  {
+   "gap": 220.35644531250023,
+   "gapError": 138.7199708349293,
+   "gapAgainstBest": -69.99628906250001,
+   "gapAgainstBestError": 116.55711484400254,
+   "temperature": 0,
+   "meanFitness": 1795.1531249999998,
+   "standardError": 99.98698343104833,
+   "cleared": 90,
+   "meanPellets": 131.69921875
+  },
+  {
+   "gap": 290.35273437500024,
+   "gapError": 138.10301809172284,
+   "gapAgainstBest": 0,
+   "gapAgainstBestError": 0,
+   "temperature": 0.1,
+   "meanFitness": 1865.149414062498,
+   "standardError": 102.61508344830776,
+   "cleared": 97,
+   "meanPellets": 131.0859375
+  },
+  {
+   "gap": 171.0451171875,
+   "gapError": 134.4794825364622,
+   "gapAgainstBest": -119.3076171875,
+   "gapAgainstBestError": 94.6568898740173,
+   "temperature": 0.15,
+   "meanFitness": 1745.8417968749984,
+   "standardError": 97.83327943972121,
+   "cleared": 85,
+   "meanPellets": 130.3515625
+  },
+  {
+   "gap": 90.43691406250004,
+   "gapError": 129.70288923753296,
+   "gapAgainstBest": -199.91582031250007,
+   "gapAgainstBestError": 116.63584413985483,
+   "temperature": 0.2,
+   "meanFitness": 1665.2335937499981,
+   "standardError": 93.07082251539916,
+   "cleared": 76,
+   "meanPellets": 131.1015625
+  },
+  {
+   "gap": 210.49179687500006,
+   "gapError": 131.3454383598856,
+   "gapAgainstBest": -79.86093750000006,
+   "gapAgainstBestError": 125.92937989673474,
+   "temperature": 0.25,
+   "meanFitness": 1785.2884765624985,
+   "standardError": 98.89549574919016,
+   "cleared": 88,
+   "meanPellets": 131.734375
+  },
+  {
+   "gap": 67.19863281250002,
+   "gapError": 130.86004285170065,
+   "gapAgainstBest": -223.1541015625,
+   "gapAgainstBestError": 123.97061043552156,
+   "temperature": 0.3,
+   "meanFitness": 1641.9953125000004,
+   "standardError": 93.80530185830018,
+   "cleared": 76,
+   "meanPellets": 129.19921875
+  },
+  {
+   "gap": 133.11191406249995,
+   "gapError": 134.1546834971772,
+   "gapAgainstBest": -157.2408203124999,
+   "gapAgainstBestError": 127.89584205886553,
+   "temperature": 0.4,
+   "meanFitness": 1707.908593749999,
+   "standardError": 97.56407831538709,
+   "cleared": 85,
+   "meanPellets": 128.904296875
+  },
+  {
+   "gap": 156.01660156249997,
+   "gapError": 131.44308957590965,
+   "gapAgainstBest": -134.3361328125,
+   "gapAgainstBestError": 133.38717813079052,
+   "temperature": 0.5,
+   "meanFitness": 1730.8132812500003,
+   "standardError": 98.87738629767135,
+   "cleared": 85,
+   "meanPellets": 128.654296875
+  },
+  {
+   "gap": 119.39199218750002,
+   "gapError": 133.45672181632085,
+   "gapAgainstBest": -170.9607421874999,
+   "gapAgainstBestError": 139.8543838914777,
+   "temperature": 0.7,
+   "meanFitness": 1694.1886718749993,
+   "standardError": 97.24949537645436,
+   "cleared": 83,
+   "meanPellets": 127.87109375
+  },
+  {
+   "gap": 0,
+   "gapError": 0,
+   "gapAgainstBest": -290.35273437500024,
+   "gapAgainstBestError": 138.10301809172284,
+   "temperature": 1,
+   "meanFitness": 1574.7966796875003,
+   "standardError": 93.13197652710463,
+   "cleared": 74,
+   "meanPellets": 125.583984375
+  },
+  {
+   "gap": -446.6679687500003,
+   "gapError": 113.77880149660903,
+   "gapAgainstBest": -737.0207031249995,
+   "gapAgainstBestError": 128.13392042804387,
+   "temperature": 1.4,
+   "meanFitness": 1128.1287109374996,
+   "standardError": 75.56932982662354,
+   "cleared": 43,
+   "meanPellets": 113.119140625
+  }
+ ]
+}

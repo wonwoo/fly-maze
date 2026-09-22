@@ -1,0 +1,94 @@
+{
+ "population": {
+  "candidates": 64,
+  "elites": 8,
+  "truthCourses": 256,
+  "repeats": 40
+ },
+ "points": [
+  {
+   "generations": 1,
+   "championGeneration": 1,
+   "meanSigma": 0.7428425502273485,
+   "drawNoise": [
+    {
+     "courses": 6,
+     "standardDeviation": 93.06461038736855
+    },
+    {
+     "courses": 24,
+     "standardDeviation": 35.03024984991223
+    }
+   ],
+   "candidateSpread": 67.30404453079211,
+   "ranking": [
+    {
+     "courses": 6,
+     "rankCorrelation": 0.8737637362637363,
+     "eliteCapture": 0.768730014587855
+    },
+    {
+     "courses": 24,
+     "rankCorrelation": 0.8812271062271062,
+     "eliteCapture": 0.9341107002160933
+    }
+   ]
+  },
+  {
+   "generations": 10,
+   "championGeneration": 7,
+   "meanSigma": 0.3676920339449364,
+   "drawNoise": [
+    {
+     "courses": 6,
+     "standardDeviation": 140.09145710058164
+    },
+    {
+     "courses": 24,
+     "standardDeviation": 58.75995148600636
+    }
+   ],
+   "candidateSpread": 91.44204218162142,
+   "ranking": [
+    {
+     "courses": 6,
+     "rankCorrelation": 0.8291208791208791,
+     "eliteCapture": 0.683279124668677
+    },
+    {
+     "courses": 24,
+     "rankCorrelation": 0.9104395604395604,
+     "eliteCapture": 0.9022721632934699
+    }
+   ]
+  },
+  {
+   "generations": 40,
+   "championGeneration": 38,
+   "meanSigma": 0.08500644053605855,
+   "drawNoise": [
+    {
+     "courses": 6,
+     "standardDeviation": 211.19387779222188
+    },
+    {
+     "courses": 24,
+     "standardDeviation": 93.69316444319287
+    }
+   ],
+   "candidateSpread": 37.180522188251835,
+   "ranking": [
+    {
+     "courses": 6,
+     "rankCorrelation": 0.11739926739926743,
+     "eliteCapture": 0.16522172535857446
+    },
+    {
+     "courses": 24,
+     "rankCorrelation": 0.17651098901098905,
+     "eliteCapture": 0.2049950048060822
+    }
+   ]
+  }
+ ]
+}

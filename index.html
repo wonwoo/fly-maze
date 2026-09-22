@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fly Maze</title>
+    <meta name="description" content="A fixed MaleCNS connectome circuit steers a maze game through a small trained readout." />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='6' fill='%23f2b134'/></svg>" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="masthead">
+        <div class="brand">
+          <span class="mark" aria-hidden="true"></span>
+          <div>
+            <h1>Fly Maze</h1>
+            <p class="tagline">A MaleCNS connectome-derived circuit plays a maze</p>
+          </div>
+        </div>
+        <p class="lede">
+          A fixed 160-cell circuit measured in the <a href="https://male-cns.janelia.org/">MaleCNS v1.0</a> connectome receives twenty maze
+          observations on gustatory, visual and proprioceptive cells. Thirty-two descending cells feed a small trained readout that chooses a
+          direction.
+          <strong>Only the readout learns.</strong> The biological wiring never changes.
+        </p>
+        <ul class="scoreboard" id="scoreboard" aria-label="held-out benchmark"></ul>
+        <div class="pipeline" aria-label="signal path">
+          <span>20 observations</span><span>80 input cells</span><span>48 bridges</span><span>32 descending</span><span>trained readout</span><span>4 directions</span>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="panel panel-game" aria-label="Maze">
+          <div class="panel-head">
+            <h2>Maze</h2>
+            <span class="chip" id="status">running</span>
+          </div>
+          <div class="stage"><canvas id="game" width="456" height="504"></canvas></div>
+          <dl class="stats">
+            <div><dt>Score</dt><dd id="score">0</dd></div>
+            <div><dt>Pellets</dt><dd id="pellets">0</dd></div>
+            <div><dt>Steps</dt><dd id="steps">0</dd></div>
+            <div><dt>Cleared</dt><dd id="cleared">0 / 0</dd></div>
+            <div><dt>Seed</dt><dd id="seed">0</dd></div>
+          </dl>
+          <div class="controls">
+            <label class="field wide">
+              <span>Controller</span>
+              <select id="mode">
+                <option value="connectome">Connectome + trained readout</option>
+                <option value="silenced">Same readout, circuit silenced</option>
+                <option value="greedy">Handwritten greedy baseline</option>
+                <option value="random">Random actions</option>
+                <option value="manual">Manual (arrow keys / WASD)</option>
+              </select>
+            </label>
+            <p class="hint">Switching controller replays the same maze from the start, so the rows above can be compared one course at a time.</p>
+            <button id="restart" class="ghost">Restart</button>
+            <button id="pause" class="ghost">Pause</button>
+            <label class="field slider">
+              <span>Speed <b id="speedValue">8</b>/s</span>
+              <input id="speed" type="range" min="2" max="30" value="8" />
+            </label>
+          </div>
+        </section>
+
+        <section class="panel panel-brain" aria-label="Circuit activity">
+          <div class="panel-head">
+            <h2>Circuit activity</h2>
+            <span class="chip subtle" id="brainChip">measured wiring, fixed</span>
+          </div>
+          <div class="stage"><canvas id="brain" width="456" height="504"></canvas></div>
+          <div class="scores" id="scores">
+            <div class="bar" data-dir="0"><span>up</span><i></i><b></b></div>
+            <div class="bar" data-dir="1"><span>right</span><i></i><b></b></div>
+            <div class="bar" data-dir="2"><span>down</span><i></i><b></b></div>
+            <div class="bar" data-dir="3"><span>left</span><i></i><b></b></div>
+          </div>
+          <p class="legend-title">Cell role</p>
+          <ul class="legend-list">
+            <li><i class="swatch food"></i>food — gustatory</li>
+            <li><i class="swatch threat"></i>threat — LC4</li>
+            <li><i class="swatch wall"></i>wall — LC11 / LC21</li>
+            <li><i class="swatch prey"></i>prey — LC10</li>
+            <li><i class="swatch self"></i>self — proprioceptive</li>
+            <li><i class="swatch bridge"></i>bridge</li>
+            <li><i class="swatch readout"></i>descending readout</li>
+          </ul>
+          <p class="legend-title">Activity and connection sign</p>
+          <ul class="legend-list">
+            <li><i class="swatch positive"></i>positive — excitatory drive</li>
+            <li><i class="swatch negative"></i>negative — inhibitory drive</li>
+          </ul>
+          <p class="legend">Cells sit at their measured soma coordinates, seen from the front. A cell's brightness and a connection's brightness are its computed activity, so the wiring that is carrying the current decision is what stands out. Only the strongest measured connections are drawn.</p>
+        </section>
+
+        <section class="panel panel-train" aria-label="Training">
+          <div class="panel-head">
+            <h2>Train the readout in your browser</h2>
+            <span class="chip subtle" id="trainChip">cross-entropy method</span>
+          </div>
+          <p class="note" id="trainNote">Runs a cross-entropy method trainer in a Web Worker over a wider readout than the published one. The measured wiring is untouched.</p>
+          <div class="controls">
+            <label class="field"><span>Seed</span><input id="trainSeed" type="number" value="20260917" /></label>
+            <label class="field"><span>Generations</span><input id="trainGenerations" type="number" min="1" max="1000" value="400" /></label>
+            <button id="train" class="primary">Train</button>
+            <button id="stopTrain" class="ghost" disabled>Stop</button>
+            <button id="export" class="ghost">Export readout</button>
+            <label class="field file"><span>Import</span><input id="import" type="file" accept="application/json" /></label>
+          </div>
+          <pre id="trainLog">Idle. The page uses the published checkpoint until you train or import another readout.</pre>
+          <p class="legend" id="checkpointInfo"></p>
+        </section>
+      </main>
+
+      <footer>
+        <p>
+          Connectome data: MaleCNS v1.0, FlyEM / HHMI Janelia and collaborators,
+          <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Circuit selection, dynamics, observation encoder and readout
+          are engineering choices documented in the repository README. Computed activity is dimensionless and no biological learning is
+          claimed. Maze, artwork and code are original.
+        </p>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

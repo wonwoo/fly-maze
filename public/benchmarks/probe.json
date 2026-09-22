@@ -1,0 +1,26 @@
+{
+ "temperature": 0.1,
+ "seeds": {
+  "first": 2100001,
+  "count": 300
+ },
+ "checkpoint": {
+  "championGeneration": 800,
+  "championValidation": 1574.7966796875003,
+  "circuitSha256": "4506e6ceca985c9d5e23e84b7366b9a62d65a65774b526063b3ee03b4f05433f"
+ },
+ "distance": {
+  "states": 26557,
+  "threatChannelsR2": -0.0011113193332568105,
+  "escapeChannelsR2": 0.1813752816411015
+ },
+ "direction": {
+  "states": 64014,
+  "readoutCellsAccuracy": 0.9875027337769863,
+  "rawFeaturesAccuracy": 1
+ },
+ "escape": {
+  "states": 1709,
+  "readoutCellsAccuracy": 0.9695906432748538
+ }
+}

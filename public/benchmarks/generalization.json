@@ -1,0 +1,85 @@
+{
+ "seeds": {
+  "first": 2100001,
+  "count": 300
+ },
+ "trainedOnRandomMazes": true,
+ "sets": {
+  "unseen generated mazes": {
+   "connectome + trained readout": {
+    "cleared": 61,
+    "meanPellets": 133.65333333333334,
+    "meanSteps": 213.38,
+    "meanScore": 1816.5333333333333
+   },
+   "same readout, circuit silenced": {
+    "cleared": 0,
+    "meanPellets": 3.58,
+    "meanSteps": 80.34,
+    "meanScore": 40.86666666666667
+   },
+   "untrained readout, random initialisation": {
+    "cleared": 0,
+    "meanPellets": 5.67,
+    "meanSteps": 93.83,
+    "meanScore": 74.43333333333334
+   },
+   "handwritten greedy baseline": {
+    "cleared": 34,
+    "meanPellets": 112.5,
+    "meanSteps": 141.13,
+    "meanScore": 1440.6
+   },
+   "uniform random actions": {
+    "cleared": 0,
+    "meanPellets": 23.536666666666665,
+    "meanSteps": 95.55,
+    "meanScore": 261.6333333333333
+   },
+   "idle": {
+    "cleared": 0,
+    "meanPellets": 2.0766666666666667,
+    "meanSteps": 78.77333333333333,
+    "meanScore": 23.166666666666668
+   }
+  },
+  "the single built-in maze": {
+   "connectome + trained readout": {
+    "cleared": 79,
+    "meanPellets": 136.32,
+    "meanSteps": 200.42,
+    "meanScore": 1940.6666666666667
+   },
+   "same readout, circuit silenced": {
+    "cleared": 0,
+    "meanPellets": 4.706666666666667,
+    "meanSteps": 70.22666666666667,
+    "meanScore": 56.8
+   },
+   "untrained readout, random initialisation": {
+    "cleared": 0,
+    "meanPellets": 7.6866666666666665,
+    "meanSteps": 86.51333333333334,
+    "meanScore": 94.06666666666666
+   },
+   "handwritten greedy baseline": {
+    "cleared": 39,
+    "meanPellets": 114.96666666666667,
+    "meanSteps": 141.44333333333333,
+    "meanScore": 1459.9333333333334
+   },
+   "uniform random actions": {
+    "cleared": 0,
+    "meanPellets": 25.633333333333333,
+    "meanSteps": 87.19666666666667,
+    "meanScore": 294.2
+   },
+   "idle": {
+    "cleared": 0,
+    "meanPellets": 3.42,
+    "meanSteps": 67.89,
+    "meanScore": 40.2
+   }
+  }
+ }
+}

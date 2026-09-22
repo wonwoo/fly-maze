@@ -1,0 +1,6109 @@
+{
+ "seeds": {
+  "first": 2100001,
+  "count": 100
+ },
+ "rules": {
+  "ghostChase": [
+   0.8,
+   0.6,
+   0.4
+  ],
+  "ghostRelease": [
+   0,
+   50,
+   100
+  ],
+  "ghostRestEvery": 4,
+  "scatterTicks": 40,
+  "chaseTicks": 80,
+  "powerPellets": true,
+  "frightenedTicks": 40,
+  "ghostEatScore": 200,
+  "respawnTicks": 30,
+  "maxSteps": 1000,
+  "foodEncoding": "relative",
+  "foodRange": 40,
+  "foodContrast": 3,
+  "threatEncoding": "absolute",
+  "threatRange": 20,
+  "threatContrast": 3,
+  "randomStart": true,
+  "startGhostDistance": 8,
+  "releaseJitter": 30,
+  "randomMaze": true
+ },
+ "checkpoint": {
+  "championGeneration": 12000,
+  "championValidation": 1544.3031250000004,
+  "circuitSha256": "4506e6ceca985c9d5e23e84b7366b9a62d65a65774b526063b3ee03b4f05433f"
+ },
+ "controllers": [
+  {
+   "controller": "connectome",
+   "courses": 100,
+   "cleared": 2,
+   "meanScore": 1111.1,
+   "meanSteps": 144.19,
+   "meanPellets": 93.87,
+   "results": [
+    {
+     "seed": 2100001,
+     "score": 2160,
+     "steps": 299,
+     "maxSteps": 1000,
+     "pellets": 172,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100002,
+     "score": 1510,
+     "steps": 209,
+     "maxSteps": 1000,
+     "pellets": 135,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100003,
+     "score": 1370,
+     "steps": 157,
+     "maxSteps": 1000,
+     "pellets": 121,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100004,
+     "score": 320,
+     "steps": 46,
+     "maxSteps": 1000,
+     "pellets": 28,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100005,
+     "score": 1300,
+     "steps": 148,
+     "maxSteps": 1000,
+     "pellets": 114,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100006,
+     "score": 490,
+     "steps": 69,
+     "maxSteps": 1000,
+     "pellets": 45,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100007,
+     "score": 860,
+     "steps": 107,
+     "maxSteps": 1000,
+     "pellets": 82,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100008,
+     "score": 2600,
+     "steps": 347,
+     "maxSteps": 1000,
+     "pellets": 196,
+     "ghostsEaten": 2,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100009,
+     "score": 1340,
+     "steps": 310,
+     "maxSteps": 1000,
+     "pellets": 122,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100010,
+     "score": 120,
+     "steps": 31,
+     "maxSteps": 1000,
+     "pellets": 12,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100011,
+     "score": 200,
+     "steps": 23,
+     "maxSteps": 1000,
+     "pellets": 16,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100012,
+     "score": 340,
+     "steps": 57,
+     "maxSteps": 1000,
+     "pellets": 34,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100013,
+     "score": 1090,
+     "steps": 118,
+     "maxSteps": 1000,
+     "pellets": 93,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100014,
+     "score": 320,
+     "steps": 45,
+     "maxSteps": 1000,
+     "pellets": 32,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100015,
+     "score": 720,
+     "steps": 86,
+     "maxSteps": 1000,
+     "pellets": 64,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100016,
+     "score": 590,
+     "steps": 82,
+     "maxSteps": 1000,
+     "pellets": 51,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100017,
+     "score": 2140,
+     "steps": 304,
+     "maxSteps": 1000,
+     "pellets": 170,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100018,
+     "score": 1260,
+     "steps": 165,
+     "maxSteps": 1000,
+     "pellets": 114,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100019,
+     "score": 470,
+     "steps": 49,
+     "maxSteps": 1000,
+     "pellets": 43,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100020,
+     "score": 1080,
+     "steps": 159,
+     "maxSteps": 1000,
+     "pellets": 100,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100021,
+     "score": 610,
+     "steps": 83,
+     "maxSteps": 1000,
+     "pellets": 61,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100022,
+     "score": 1380,
+     "steps": 155,
+     "maxSteps": 1000,
+     "pellets": 122,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100023,
+     "score": 430,
+     "steps": 58,
+     "maxSteps": 1000,
+     "pellets": 39,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100024,
+     "score": 180,
+     "steps": 63,
+     "maxSteps": 1000,
+     "pellets": 18,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100025,
+     "score": 800,
+     "steps": 114,
+     "maxSteps": 1000,
+     "pellets": 72,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100026,
+     "score": 1330,
+     "steps": 165,
+     "maxSteps": 1000,
+     "pellets": 101,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100027,
+     "score": 1230,
+     "steps": 171,
+     "maxSteps": 1000,
+     "pellets": 111,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100028,
+     "score": 1840,
+     "steps": 209,
+     "maxSteps": 1000,
+     "pellets": 148,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100029,
+     "score": 70,
+     "steps": 7,
+     "maxSteps": 1000,
+     "pellets": 7,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100030,
+     "score": 1070,
+     "steps": 94,
+     "maxSteps": 1000,
+     "pellets": 75,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100031,
+     "score": 710,
+     "steps": 94,
+     "maxSteps": 1000,
+     "pellets": 67,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100032,
+     "score": 1070,
+     "steps": 145,
+     "maxSteps": 1000,
+     "pellets": 95,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100033,
+     "score": 640,
+     "steps": 90,
+     "maxSteps": 1000,
+     "pellets": 64,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100034,
+     "score": 1430,
+     "steps": 223,
+     "maxSteps": 1000,
+     "pellets": 127,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100035,
+     "score": 2080,
+     "steps": 226,
+     "maxSteps": 1000,
+     "pellets": 168,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100036,
+     "score": 1290,
+     "steps": 173,
+     "maxSteps": 1000,
+     "pellets": 117,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100037,
+     "score": 1720,
+     "steps": 175,
+     "maxSteps": 1000,
+     "pellets": 136,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100038,
+     "score": 280,
+     "steps": 43,
+     "maxSteps": 1000,
+     "pellets": 28,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100039,
+     "score": 1430,
+     "steps": 163,
+     "maxSteps": 1000,
+     "pellets": 127,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100040,
+     "score": 850,
+     "steps": 131,
+     "maxSteps": 1000,
+     "pellets": 77,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100041,
+     "score": 1650,
+     "steps": 213,
+     "maxSteps": 1000,
+     "pellets": 145,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100042,
+     "score": 860,
+     "steps": 101,
+     "maxSteps": 1000,
+     "pellets": 78,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100043,
+     "score": 980,
+     "steps": 112,
+     "maxSteps": 1000,
+     "pellets": 90,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100044,
+     "score": 1180,
+     "steps": 168,
+     "maxSteps": 1000,
+     "pellets": 110,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100045,
+     "score": 720,
+     "steps": 93,
+     "maxSteps": 1000,
+     "pellets": 64,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100046,
+     "score": 1170,
+     "steps": 157,
+     "maxSteps": 1000,
+     "pellets": 105,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100047,
+     "score": 1720,
+     "steps": 210,
+     "maxSteps": 1000,
+     "pellets": 136,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100048,
+     "score": 500,
+     "steps": 69,
+     "maxSteps": 1000,
+     "pellets": 46,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100049,
+     "score": 2300,
+     "steps": 290,
+     "maxSteps": 1000,
+     "pellets": 186,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100050,
+     "score": 770,
+     "steps": 87,
+     "maxSteps": 1000,
+     "pellets": 69,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100051,
+     "score": 770,
+     "steps": 94,
+     "maxSteps": 1000,
+     "pellets": 69,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100052,
+     "score": 1900,
+     "steps": 197,
+     "maxSteps": 1000,
+     "pellets": 150,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100053,
+     "score": 300,
+     "steps": 38,
+     "maxSteps": 1000,
+     "pellets": 30,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100054,
+     "score": 3330,
+     "steps": 333,
+     "maxSteps": 1000,
+     "pellets": 189,
+     "ghostsEaten": 1,
+     "cleared": true,
+     "alive": true
+    },
+    {
+     "seed": 2100055,
+     "score": 950,
+     "steps": 131,
+     "maxSteps": 1000,
+     "pellets": 83,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100056,
+     "score": 510,
+     "steps": 67,
+     "maxSteps": 1000,
+     "pellets": 51,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100057,
+     "score": 650,
+     "steps": 70,
+     "maxSteps": 1000,
+     "pellets": 53,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100058,
+     "score": 1120,
+     "steps": 135,
+     "maxSteps": 1000,
+     "pellets": 100,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100059,
+     "score": 580,
+     "steps": 77,
+     "maxSteps": 1000,
+     "pellets": 54,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100060,
+     "score": 310,
+     "steps": 40,
+     "maxSteps": 1000,
+     "pellets": 27,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100061,
+     "score": 1520,
+     "steps": 196,
+     "maxSteps": 1000,
+     "pellets": 120,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100062,
+     "score": 140,
+     "steps": 15,
+     "maxSteps": 1000,
+     "pellets": 14,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100063,
+     "score": 2040,
+     "steps": 293,
+     "maxSteps": 1000,
+     "pellets": 164,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100064,
+     "score": 800,
+     "steps": 73,
+     "maxSteps": 1000,
+     "pellets": 56,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100065,
+     "score": 1890,
+     "steps": 226,
+     "maxSteps": 1000,
+     "pellets": 149,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100066,
+     "score": 1130,
+     "steps": 191,
+     "maxSteps": 1000,
+     "pellets": 105,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100067,
+     "score": 1840,
+     "steps": 190,
+     "maxSteps": 1000,
+     "pellets": 144,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100068,
+     "score": 930,
+     "steps": 139,
+     "maxSteps": 1000,
+     "pellets": 85,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100069,
+     "score": 470,
+     "steps": 99,
+     "maxSteps": 1000,
+     "pellets": 43,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100070,
+     "score": 1910,
+     "steps": 289,
+     "maxSteps": 1000,
+     "pellets": 171,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100071,
+     "score": 690,
+     "steps": 74,
+     "maxSteps": 1000,
+     "pellets": 65,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100072,
+     "score": 1630,
+     "steps": 185,
+     "maxSteps": 1000,
+     "pellets": 127,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100073,
+     "score": 1130,
+     "steps": 155,
+     "maxSteps": 1000,
+     "pellets": 105,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100074,
+     "score": 530,
+     "steps": 81,
+     "maxSteps": 1000,
+     "pellets": 49,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100075,
+     "score": 630,
+     "steps": 94,
+     "maxSteps": 1000,
+     "pellets": 59,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100076,
+     "score": 110,
+     "steps": 26,
+     "maxSteps": 1000,
+     "pellets": 11,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100077,
+     "score": 1800,
+     "steps": 223,
+     "maxSteps": 1000,
+     "pellets": 156,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100078,
+     "score": 1030,
+     "steps": 178,
+     "maxSteps": 1000,
+     "pellets": 95,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100079,
+     "score": 1110,
+     "steps": 142,
+     "maxSteps": 1000,
+     "pellets": 95,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100080,
+     "score": 500,
+     "steps": 84,
+     "maxSteps": 1000,
+     "pellets": 50,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100081,
+     "score": 700,
+     "steps": 102,
+     "maxSteps": 1000,
+     "pellets": 62,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100082,
+     "score": 1230,
+     "steps": 190,
+     "maxSteps": 1000,
+     "pellets": 111,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100083,
+     "score": 1450,
+     "steps": 209,
+     "maxSteps": 1000,
+     "pellets": 133,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100084,
+     "score": 1070,
+     "steps": 137,
+     "maxSteps": 1000,
+     "pellets": 99,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100085,
+     "score": 570,
+     "steps": 71,
+     "maxSteps": 1000,
+     "pellets": 53,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100086,
+     "score": 2210,
+     "steps": 279,
+     "maxSteps": 1000,
+     "pellets": 177,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100087,
+     "score": 400,
+     "steps": 36,
+     "maxSteps": 1000,
+     "pellets": 36,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100088,
+     "score": 1240,
+     "steps": 176,
+     "maxSteps": 1000,
+     "pellets": 112,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100089,
+     "score": 2430,
+     "steps": 310,
+     "maxSteps": 1000,
+     "pellets": 183,
+     "ghostsEaten": 2,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100090,
+     "score": 2030,
+     "steps": 327,
+     "maxSteps": 1000,
+     "pellets": 183,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100091,
+     "score": 950,
+     "steps": 114,
+     "maxSteps": 1000,
+     "pellets": 87,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100092,
+     "score": 1180,
+     "steps": 169,
+     "maxSteps": 1000,
+     "pellets": 106,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100093,
+     "score": 2330,
+     "steps": 314,
+     "maxSteps": 1000,
+     "pellets": 189,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100094,
+     "score": 790,
+     "steps": 82,
+     "maxSteps": 1000,
+     "pellets": 67,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100095,
+     "score": 580,
+     "steps": 63,
+     "maxSteps": 1000,
+     "pellets": 54,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100096,
+     "score": 390,
+     "steps": 45,
+     "maxSteps": 1000,
+     "pellets": 35,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100097,
+     "score": 3370,
+     "steps": 322,
+     "maxSteps": 1000,
+     "pellets": 193,
+     "ghostsEaten": 1,
+     "cleared": true,
+     "alive": true
+    },
+    {
+     "seed": 2100098,
+     "score": 1020,
+     "steps": 119,
+     "maxSteps": 1000,
+     "pellets": 90,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100099,
+     "score": 970,
+     "steps": 130,
+     "maxSteps": 1000,
+     "pellets": 89,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100100,
+     "score": 1380,
+     "steps": 196,
+     "maxSteps": 1000,
+     "pellets": 126,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    }
+   ],
+   "label": "connectome + trained readout"
+  },
+  {
+   "controller": "connectome-silenced",
+   "courses": 100,
+   "cleared": 0,
+   "meanScore": 240.1,
+   "meanSteps": 84.34,
+   "meanPellets": 21.09,
+   "results": [
+    {
+     "seed": 2100001,
+     "score": 240,
+     "steps": 83,
+     "maxSteps": 1000,
+     "pellets": 24,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100002,
+     "score": 170,
+     "steps": 63,
+     "maxSteps": 1000,
+     "pellets": 17,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100003,
+     "score": 200,
+     "steps": 75,
+     "maxSteps": 1000,
+     "pellets": 20,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100004,
+     "score": 220,
+     "steps": 63,
+     "maxSteps": 1000,
+     "pellets": 18,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100005,
+     "score": 500,
+     "steps": 98,
+     "maxSteps": 1000,
+     "pellets": 26,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100006,
+     "score": 420,
+     "steps": 125,
+     "maxSteps": 1000,
+     "pellets": 38,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100007,
+     "score": 200,
+     "steps": 93,
+     "maxSteps": 1000,
+     "pellets": 16,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100008,
+     "score": 90,
+     "steps": 34,
+     "maxSteps": 1000,
+     "pellets": 9,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100009,
+     "score": 200,
+     "steps": 66,
+     "maxSteps": 1000,
+     "pellets": 16,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100010,
+     "score": 120,
+     "steps": 35,
+     "maxSteps": 1000,
+     "pellets": 12,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100011,
+     "score": 240,
+     "steps": 109,
+     "maxSteps": 1000,
+     "pellets": 20,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100012,
+     "score": 190,
+     "steps": 59,
+     "maxSteps": 1000,
+     "pellets": 15,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100013,
+     "score": 160,
+     "steps": 96,
+     "maxSteps": 1000,
+     "pellets": 12,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100014,
+     "score": 300,
+     "steps": 89,
+     "maxSteps": 1000,
+     "pellets": 26,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100015,
+     "score": 530,
+     "steps": 233,
+     "maxSteps": 1000,
+     "pellets": 49,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100016,
+     "score": 430,
+     "steps": 106,
+     "maxSteps": 1000,
+     "pellets": 35,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100017,
+     "score": 230,
+     "steps": 86,
+     "maxSteps": 1000,
+     "pellets": 19,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100018,
+     "score": 290,
+     "steps": 122,
+     "maxSteps": 1000,
+     "pellets": 29,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100019,
+     "score": 320,
+     "steps": 91,
+     "maxSteps": 1000,
+     "pellets": 28,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100020,
+     "score": 450,
+     "steps": 92,
+     "maxSteps": 1000,
+     "pellets": 41,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100021,
+     "score": 200,
+     "steps": 53,
+     "maxSteps": 1000,
+     "pellets": 16,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100022,
+     "score": 200,
+     "steps": 72,
+     "maxSteps": 1000,
+     "pellets": 20,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100023,
+     "score": 210,
+     "steps": 43,
+     "maxSteps": 1000,
+     "pellets": 17,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100024,
+     "score": 80,
+     "steps": 73,
+     "maxSteps": 1000,
+     "pellets": 8,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100025,
+     "score": 190,
+     "steps": 101,
+     "maxSteps": 1000,
+     "pellets": 19,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100026,
+     "score": 290,
+     "steps": 63,
+     "maxSteps": 1000,
+     "pellets": 29,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100027,
+     "score": 270,
+     "steps": 57,
+     "maxSteps": 1000,
+     "pellets": 23,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100028,
+     "score": 220,
+     "steps": 63,
+     "maxSteps": 1000,
+     "pellets": 22,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100029,
+     "score": 300,
+     "steps": 82,
+     "maxSteps": 1000,
+     "pellets": 26,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100030,
+     "score": 280,
+     "steps": 100,
+     "maxSteps": 1000,
+     "pellets": 28,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100031,
+     "score": 210,
+     "steps": 75,
+     "maxSteps": 1000,
+     "pellets": 17,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100032,
+     "score": 140,
+     "steps": 26,
+     "maxSteps": 1000,
+     "pellets": 14,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100033,
+     "score": 160,
+     "steps": 66,
+     "maxSteps": 1000,
+     "pellets": 16,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100034,
+     "score": 570,
+     "steps": 165,
+     "maxSteps": 1000,
+     "pellets": 33,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100035,
+     "score": 220,
+     "steps": 70,
+     "maxSteps": 1000,
+     "pellets": 22,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100036,
+     "score": 180,
+     "steps": 49,
+     "maxSteps": 1000,
+     "pellets": 18,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100037,
+     "score": 520,
+     "steps": 139,
+     "maxSteps": 1000,
+     "pellets": 28,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100038,
+     "score": 220,
+     "steps": 83,
+     "maxSteps": 1000,
+     "pellets": 22,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100039,
+     "score": 90,
+     "steps": 16,
+     "maxSteps": 1000,
+     "pellets": 9,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100040,
+     "score": 180,
+     "steps": 72,
+     "maxSteps": 1000,
+     "pellets": 18,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100041,
+     "score": 200,
+     "steps": 66,
+     "maxSteps": 1000,
+     "pellets": 20,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100042,
+     "score": 600,
+     "steps": 135,
+     "maxSteps": 1000,
+     "pellets": 52,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100043,
+     "score": 320,
+     "steps": 105,
+     "maxSteps": 1000,
+     "pellets": 28,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100044,
+     "score": 330,
+     "steps": 96,
+     "maxSteps": 1000,
+     "pellets": 29,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100045,
+     "score": 250,
+     "steps": 58,
+     "maxSteps": 1000,
+     "pellets": 25,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100046,
+     "score": 430,
+     "steps": 181,
+     "maxSteps": 1000,
+     "pellets": 39,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100047,
+     "score": 140,
+     "steps": 49,
+     "maxSteps": 1000,
+     "pellets": 14,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100048,
+     "score": 160,
+     "steps": 35,
+     "maxSteps": 1000,
+     "pellets": 16,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100049,
+     "score": 230,
+     "steps": 102,
+     "maxSteps": 1000,
+     "pellets": 23,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100050,
+     "score": 60,
+     "steps": 17,
+     "maxSteps": 1000,
+     "pellets": 6,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100051,
+     "score": 160,
+     "steps": 74,
+     "maxSteps": 1000,
+     "pellets": 16,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100052,
+     "score": 250,
+     "steps": 111,
+     "maxSteps": 1000,
+     "pellets": 25,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100053,
+     "score": 210,
+     "steps": 62,
+     "maxSteps": 1000,
+     "pellets": 17,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100054,
+     "score": 60,
+     "steps": 24,
+     "maxSteps": 1000,
+     "pellets": 6,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100055,
+     "score": 460,
+     "steps": 172,
+     "maxSteps": 1000,
+     "pellets": 38,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100056,
+     "score": 50,
+     "steps": 23,
+     "maxSteps": 1000,
+     "pellets": 5,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100057,
+     "score": 200,
+     "steps": 85,
+     "maxSteps": 1000,
+     "pellets": 20,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100058,
+     "score": 320,
+     "steps": 109,
+     "maxSteps": 1000,
+     "pellets": 28,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100059,
+     "score": 310,
+     "steps": 99,
+     "maxSteps": 1000,
+     "pellets": 27,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100060,
+     "score": 400,
+     "steps": 131,
+     "maxSteps": 1000,
+     "pellets": 36,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100061,
+     "score": 280,
+     "steps": 99,
+     "maxSteps": 1000,
+     "pellets": 28,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100062,
+     "score": 120,
+     "steps": 43,
+     "maxSteps": 1000,
+     "pellets": 12,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100063,
+     "score": 230,
+     "steps": 106,
+     "maxSteps": 1000,
+     "pellets": 23,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100064,
+     "score": 240,
+     "steps": 77,
+     "maxSteps": 1000,
+     "pellets": 24,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100065,
+     "score": 220,
+     "steps": 99,
+     "maxSteps": 1000,
+     "pellets": 22,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100066,
+     "score": 410,
+     "steps": 102,
+     "maxSteps": 1000,
+     "pellets": 17,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100067,
+     "score": 270,
+     "steps": 102,
+     "maxSteps": 1000,
+     "pellets": 23,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100068,
+     "score": 80,
+     "steps": 84,
+     "maxSteps": 1000,
+     "pellets": 8,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100069,
+     "score": 160,
+     "steps": 78,
+     "maxSteps": 1000,
+     "pellets": 12,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100070,
+     "score": 50,
+     "steps": 67,
+     "maxSteps": 1000,
+     "pellets": 5,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100071,
+     "score": 150,
+     "steps": 87,
+     "maxSteps": 1000,
+     "pellets": 15,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100072,
+     "score": 690,
+     "steps": 178,
+     "maxSteps": 1000,
+     "pellets": 61,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100073,
+     "score": 170,
+     "steps": 50,
+     "maxSteps": 1000,
+     "pellets": 17,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100074,
+     "score": 230,
+     "steps": 99,
+     "maxSteps": 1000,
+     "pellets": 23,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100075,
+     "score": 130,
+     "steps": 34,
+     "maxSteps": 1000,
+     "pellets": 9,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100076,
+     "score": 200,
+     "steps": 77,
+     "maxSteps": 1000,
+     "pellets": 16,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100077,
+     "score": 120,
+     "steps": 40,
+     "maxSteps": 1000,
+     "pellets": 8,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100078,
+     "score": 170,
+     "steps": 59,
+     "maxSteps": 1000,
+     "pellets": 13,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100079,
+     "score": 410,
+     "steps": 275,
+     "maxSteps": 1000,
+     "pellets": 33,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100080,
+     "score": 210,
+     "steps": 89,
+     "maxSteps": 1000,
+     "pellets": 21,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100081,
+     "score": 260,
+     "steps": 55,
+     "maxSteps": 1000,
+     "pellets": 26,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100082,
+     "score": 220,
+     "steps": 62,
+     "maxSteps": 1000,
+     "pellets": 18,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100083,
+     "score": 120,
+     "steps": 28,
+     "maxSteps": 1000,
+     "pellets": 12,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100084,
+     "score": 250,
+     "steps": 67,
+     "maxSteps": 1000,
+     "pellets": 25,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100085,
+     "score": 230,
+     "steps": 58,
+     "maxSteps": 1000,
+     "pellets": 23,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100086,
+     "score": 80,
+     "steps": 69,
+     "maxSteps": 1000,
+     "pellets": 8,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100087,
+     "score": 230,
+     "steps": 63,
+     "maxSteps": 1000,
+     "pellets": 23,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100088,
+     "score": 500,
+     "steps": 107,
+     "maxSteps": 1000,
+     "pellets": 26,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100089,
+     "score": 180,
+     "steps": 194,
+     "maxSteps": 1000,
+     "pellets": 14,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100090,
+     "score": 170,
+     "steps": 87,
+     "maxSteps": 1000,
+     "pellets": 17,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100091,
+     "score": 190,
+     "steps": 67,
+     "maxSteps": 1000,
+     "pellets": 19,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100092,
+     "score": 390,
+     "steps": 116,
+     "maxSteps": 1000,
+     "pellets": 35,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100093,
+     "score": 190,
+     "steps": 41,
+     "maxSteps": 1000,
+     "pellets": 19,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100094,
+     "score": 80,
+     "steps": 78,
+     "maxSteps": 1000,
+     "pellets": 8,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100095,
+     "score": 170,
+     "steps": 90,
+     "maxSteps": 1000,
+     "pellets": 17,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100096,
+     "score": 120,
+     "steps": 45,
+     "maxSteps": 1000,
+     "pellets": 12,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100097,
+     "score": 100,
+     "steps": 64,
+     "maxSteps": 1000,
+     "pellets": 10,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100098,
+     "score": 160,
+     "steps": 61,
+     "maxSteps": 1000,
+     "pellets": 16,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100099,
+     "score": 200,
+     "steps": 103,
+     "maxSteps": 1000,
+     "pellets": 20,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100100,
+     "score": 260,
+     "steps": 114,
+     "maxSteps": 1000,
+     "pellets": 26,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    }
+   ],
+   "label": "same readout, circuit silenced"
+  },
+  {
+   "controller": "connectome",
+   "courses": 100,
+   "cleared": 0,
+   "meanScore": 249,
+   "meanSteps": 100.5,
+   "meanPellets": 21.58,
+   "results": [
+    {
+     "seed": 2100001,
+     "score": 300,
+     "steps": 86,
+     "maxSteps": 1000,
+     "pellets": 30,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100002,
+     "score": 540,
+     "steps": 173,
+     "maxSteps": 1000,
+     "pellets": 30,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100003,
+     "score": 140,
+     "steps": 26,
+     "maxSteps": 1000,
+     "pellets": 14,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100004,
+     "score": 140,
+     "steps": 43,
+     "maxSteps": 1000,
+     "pellets": 10,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100005,
+     "score": 140,
+     "steps": 71,
+     "maxSteps": 1000,
+     "pellets": 14,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100006,
+     "score": 500,
+     "steps": 143,
+     "maxSteps": 1000,
+     "pellets": 42,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100007,
+     "score": 170,
+     "steps": 89,
+     "maxSteps": 1000,
+     "pellets": 13,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100008,
+     "score": 290,
+     "steps": 66,
+     "maxSteps": 1000,
+     "pellets": 25,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100009,
+     "score": 210,
+     "steps": 95,
+     "maxSteps": 1000,
+     "pellets": 21,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100010,
+     "score": 320,
+     "steps": 78,
+     "maxSteps": 1000,
+     "pellets": 28,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100011,
+     "score": 130,
+     "steps": 31,
+     "maxSteps": 1000,
+     "pellets": 13,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100012,
+     "score": 310,
+     "steps": 63,
+     "maxSteps": 1000,
+     "pellets": 27,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100013,
+     "score": 300,
+     "steps": 174,
+     "maxSteps": 1000,
+     "pellets": 22,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100014,
+     "score": 160,
+     "steps": 50,
+     "maxSteps": 1000,
+     "pellets": 16,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100015,
+     "score": 260,
+     "steps": 201,
+     "maxSteps": 1000,
+     "pellets": 22,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100016,
+     "score": 440,
+     "steps": 214,
+     "maxSteps": 1000,
+     "pellets": 32,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100017,
+     "score": 380,
+     "steps": 79,
+     "maxSteps": 1000,
+     "pellets": 30,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100018,
+     "score": 300,
+     "steps": 100,
+     "maxSteps": 1000,
+     "pellets": 26,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100019,
+     "score": 310,
+     "steps": 93,
+     "maxSteps": 1000,
+     "pellets": 27,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100020,
+     "score": 190,
+     "steps": 73,
+     "maxSteps": 1000,
+     "pellets": 15,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100021,
+     "score": 340,
+     "steps": 195,
+     "maxSteps": 1000,
+     "pellets": 30,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100022,
+     "score": 210,
+     "steps": 36,
+     "maxSteps": 1000,
+     "pellets": 21,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100023,
+     "score": 510,
+     "steps": 204,
+     "maxSteps": 1000,
+     "pellets": 47,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100024,
+     "score": 180,
+     "steps": 44,
+     "maxSteps": 1000,
+     "pellets": 18,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100025,
+     "score": 210,
+     "steps": 175,
+     "maxSteps": 1000,
+     "pellets": 17,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100026,
+     "score": 160,
+     "steps": 90,
+     "maxSteps": 1000,
+     "pellets": 16,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100027,
+     "score": 150,
+     "steps": 72,
+     "maxSteps": 1000,
+     "pellets": 15,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100028,
+     "score": 310,
+     "steps": 170,
+     "maxSteps": 1000,
+     "pellets": 27,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100029,
+     "score": 80,
+     "steps": 38,
+     "maxSteps": 1000,
+     "pellets": 8,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100030,
+     "score": 240,
+     "steps": 105,
+     "maxSteps": 1000,
+     "pellets": 20,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100031,
+     "score": 330,
+     "steps": 94,
+     "maxSteps": 1000,
+     "pellets": 29,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100032,
+     "score": 220,
+     "steps": 29,
+     "maxSteps": 1000,
+     "pellets": 22,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100033,
+     "score": 270,
+     "steps": 77,
+     "maxSteps": 1000,
+     "pellets": 23,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100034,
+     "score": 560,
+     "steps": 121,
+     "maxSteps": 1000,
+     "pellets": 32,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100035,
+     "score": 310,
+     "steps": 81,
+     "maxSteps": 1000,
+     "pellets": 27,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100036,
+     "score": 100,
+     "steps": 54,
+     "maxSteps": 1000,
+     "pellets": 10,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100037,
+     "score": 340,
+     "steps": 186,
+     "maxSteps": 1000,
+     "pellets": 30,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100038,
+     "score": 250,
+     "steps": 101,
+     "maxSteps": 1000,
+     "pellets": 25,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100039,
+     "score": 70,
+     "steps": 16,
+     "maxSteps": 1000,
+     "pellets": 7,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100040,
+     "score": 240,
+     "steps": 85,
+     "maxSteps": 1000,
+     "pellets": 24,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100041,
+     "score": 310,
+     "steps": 99,
+     "maxSteps": 1000,
+     "pellets": 27,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100042,
+     "score": 290,
+     "steps": 70,
+     "maxSteps": 1000,
+     "pellets": 25,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100043,
+     "score": 210,
+     "steps": 68,
+     "maxSteps": 1000,
+     "pellets": 17,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100044,
+     "score": 170,
+     "steps": 114,
+     "maxSteps": 1000,
+     "pellets": 13,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100045,
+     "score": 220,
+     "steps": 37,
+     "maxSteps": 1000,
+     "pellets": 22,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100046,
+     "score": 210,
+     "steps": 110,
+     "maxSteps": 1000,
+     "pellets": 21,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100047,
+     "score": 210,
+     "steps": 53,
+     "maxSteps": 1000,
+     "pellets": 21,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100048,
+     "score": 190,
+     "steps": 43,
+     "maxSteps": 1000,
+     "pellets": 19,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100049,
+     "score": 400,
+     "steps": 203,
+     "maxSteps": 1000,
+     "pellets": 36,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100050,
+     "score": 90,
+     "steps": 15,
+     "maxSteps": 1000,
+     "pellets": 9,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100051,
+     "score": 280,
+     "steps": 103,
+     "maxSteps": 1000,
+     "pellets": 24,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100052,
+     "score": 190,
+     "steps": 105,
+     "maxSteps": 1000,
+     "pellets": 19,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100053,
+     "score": 150,
+     "steps": 69,
+     "maxSteps": 1000,
+     "pellets": 15,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100054,
+     "score": 150,
+     "steps": 38,
+     "maxSteps": 1000,
+     "pellets": 15,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100055,
+     "score": 230,
+     "steps": 85,
+     "maxSteps": 1000,
+     "pellets": 23,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100056,
+     "score": 120,
+     "steps": 17,
+     "maxSteps": 1000,
+     "pellets": 8,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100057,
+     "score": 270,
+     "steps": 115,
+     "maxSteps": 1000,
+     "pellets": 23,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100058,
+     "score": 260,
+     "steps": 103,
+     "maxSteps": 1000,
+     "pellets": 22,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100059,
+     "score": 410,
+     "steps": 229,
+     "maxSteps": 1000,
+     "pellets": 37,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100060,
+     "score": 150,
+     "steps": 114,
+     "maxSteps": 1000,
+     "pellets": 11,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100061,
+     "score": 180,
+     "steps": 196,
+     "maxSteps": 1000,
+     "pellets": 14,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100062,
+     "score": 70,
+     "steps": 46,
+     "maxSteps": 1000,
+     "pellets": 7,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100063,
+     "score": 100,
+     "steps": 91,
+     "maxSteps": 1000,
+     "pellets": 10,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100064,
+     "score": 350,
+     "steps": 146,
+     "maxSteps": 1000,
+     "pellets": 27,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100065,
+     "score": 270,
+     "steps": 222,
+     "maxSteps": 1000,
+     "pellets": 23,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100066,
+     "score": 110,
+     "steps": 57,
+     "maxSteps": 1000,
+     "pellets": 11,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100067,
+     "score": 170,
+     "steps": 75,
+     "maxSteps": 1000,
+     "pellets": 17,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100068,
+     "score": 370,
+     "steps": 105,
+     "maxSteps": 1000,
+     "pellets": 33,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100069,
+     "score": 190,
+     "steps": 74,
+     "maxSteps": 1000,
+     "pellets": 15,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100070,
+     "score": 230,
+     "steps": 107,
+     "maxSteps": 1000,
+     "pellets": 19,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100071,
+     "score": 160,
+     "steps": 93,
+     "maxSteps": 1000,
+     "pellets": 16,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100072,
+     "score": 380,
+     "steps": 110,
+     "maxSteps": 1000,
+     "pellets": 34,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100073,
+     "score": 170,
+     "steps": 126,
+     "maxSteps": 1000,
+     "pellets": 13,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100074,
+     "score": 120,
+     "steps": 107,
+     "maxSteps": 1000,
+     "pellets": 12,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100075,
+     "score": 110,
+     "steps": 34,
+     "maxSteps": 1000,
+     "pellets": 7,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100076,
+     "score": 260,
+     "steps": 80,
+     "maxSteps": 1000,
+     "pellets": 22,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100077,
+     "score": 130,
+     "steps": 54,
+     "maxSteps": 1000,
+     "pellets": 9,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100078,
+     "score": 150,
+     "steps": 57,
+     "maxSteps": 1000,
+     "pellets": 11,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100079,
+     "score": 380,
+     "steps": 149,
+     "maxSteps": 1000,
+     "pellets": 30,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100080,
+     "score": 250,
+     "steps": 95,
+     "maxSteps": 1000,
+     "pellets": 25,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100081,
+     "score": 240,
+     "steps": 97,
+     "maxSteps": 1000,
+     "pellets": 20,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100082,
+     "score": 170,
+     "steps": 71,
+     "maxSteps": 1000,
+     "pellets": 17,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100083,
+     "score": 550,
+     "steps": 87,
+     "maxSteps": 1000,
+     "pellets": 31,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100084,
+     "score": 200,
+     "steps": 56,
+     "maxSteps": 1000,
+     "pellets": 20,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100085,
+     "score": 310,
+     "steps": 107,
+     "maxSteps": 1000,
+     "pellets": 31,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100086,
+     "score": 410,
+     "steps": 215,
+     "maxSteps": 1000,
+     "pellets": 41,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100087,
+     "score": 310,
+     "steps": 205,
+     "maxSteps": 1000,
+     "pellets": 27,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100088,
+     "score": 210,
+     "steps": 70,
+     "maxSteps": 1000,
+     "pellets": 21,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100089,
+     "score": 420,
+     "steps": 209,
+     "maxSteps": 1000,
+     "pellets": 34,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100090,
+     "score": 280,
+     "steps": 125,
+     "maxSteps": 1000,
+     "pellets": 24,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100091,
+     "score": 110,
+     "steps": 58,
+     "maxSteps": 1000,
+     "pellets": 11,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100092,
+     "score": 240,
+     "steps": 207,
+     "maxSteps": 1000,
+     "pellets": 20,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100093,
+     "score": 430,
+     "steps": 83,
+     "maxSteps": 1000,
+     "pellets": 35,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100094,
+     "score": 200,
+     "steps": 116,
+     "maxSteps": 1000,
+     "pellets": 16,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100095,
+     "score": 300,
+     "steps": 77,
+     "maxSteps": 1000,
+     "pellets": 26,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100096,
+     "score": 140,
+     "steps": 54,
+     "maxSteps": 1000,
+     "pellets": 14,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100097,
+     "score": 120,
+     "steps": 69,
+     "maxSteps": 1000,
+     "pellets": 12,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100098,
+     "score": 400,
+     "steps": 118,
+     "maxSteps": 1000,
+     "pellets": 36,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100099,
+     "score": 210,
+     "steps": 93,
+     "maxSteps": 1000,
+     "pellets": 21,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100100,
+     "score": 380,
+     "steps": 198,
+     "maxSteps": 1000,
+     "pellets": 34,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    }
+   ],
+   "label": "initial untrained readout"
+  },
+  {
+   "controller": "greedy-pellet",
+   "courses": 100,
+   "cleared": 12,
+   "meanScore": 1409.6,
+   "meanSteps": 137.81,
+   "meanPellets": 110.64,
+   "results": [
+    {
+     "seed": 2100001,
+     "score": 1350,
+     "steps": 133,
+     "maxSteps": 1000,
+     "pellets": 123,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100002,
+     "score": 1270,
+     "steps": 135,
+     "maxSteps": 1000,
+     "pellets": 115,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100003,
+     "score": 2350,
+     "steps": 246,
+     "maxSteps": 1000,
+     "pellets": 191,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100004,
+     "score": 900,
+     "steps": 106,
+     "maxSteps": 1000,
+     "pellets": 82,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100005,
+     "score": 870,
+     "steps": 85,
+     "maxSteps": 1000,
+     "pellets": 79,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100006,
+     "score": 1200,
+     "steps": 104,
+     "maxSteps": 1000,
+     "pellets": 92,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100007,
+     "score": 3780,
+     "steps": 250,
+     "maxSteps": 1000,
+     "pellets": 194,
+     "ghostsEaten": 3,
+     "cleared": true,
+     "alive": true
+    },
+    {
+     "seed": 2100008,
+     "score": 3210,
+     "steps": 284,
+     "maxSteps": 1000,
+     "pellets": 197,
+     "ghostsEaten": 0,
+     "cleared": true,
+     "alive": true
+    },
+    {
+     "seed": 2100009,
+     "score": 1060,
+     "steps": 87,
+     "maxSteps": 1000,
+     "pellets": 74,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100010,
+     "score": 1820,
+     "steps": 213,
+     "maxSteps": 1000,
+     "pellets": 166,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100011,
+     "score": 810,
+     "steps": 87,
+     "maxSteps": 1000,
+     "pellets": 73,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100012,
+     "score": 730,
+     "steps": 66,
+     "maxSteps": 1000,
+     "pellets": 65,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100013,
+     "score": 830,
+     "steps": 94,
+     "maxSteps": 1000,
+     "pellets": 71,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100014,
+     "score": 1530,
+     "steps": 176,
+     "maxSteps": 1000,
+     "pellets": 141,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100015,
+     "score": 1590,
+     "steps": 180,
+     "maxSteps": 1000,
+     "pellets": 147,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100016,
+     "score": 3400,
+     "steps": 294,
+     "maxSteps": 1000,
+     "pellets": 196,
+     "ghostsEaten": 1,
+     "cleared": true,
+     "alive": true
+    },
+    {
+     "seed": 2100017,
+     "score": 1060,
+     "steps": 104,
+     "maxSteps": 1000,
+     "pellets": 94,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100018,
+     "score": 1310,
+     "steps": 131,
+     "maxSteps": 1000,
+     "pellets": 119,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100019,
+     "score": 470,
+     "steps": 47,
+     "maxSteps": 1000,
+     "pellets": 43,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100020,
+     "score": 1240,
+     "steps": 115,
+     "maxSteps": 1000,
+     "pellets": 104,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100021,
+     "score": 3370,
+     "steps": 272,
+     "maxSteps": 1000,
+     "pellets": 193,
+     "ghostsEaten": 1,
+     "cleared": true,
+     "alive": true
+    },
+    {
+     "seed": 2100022,
+     "score": 940,
+     "steps": 94,
+     "maxSteps": 1000,
+     "pellets": 86,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100023,
+     "score": 1590,
+     "steps": 177,
+     "maxSteps": 1000,
+     "pellets": 143,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100024,
+     "score": 390,
+     "steps": 38,
+     "maxSteps": 1000,
+     "pellets": 35,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100025,
+     "score": 2360,
+     "steps": 234,
+     "maxSteps": 1000,
+     "pellets": 192,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100026,
+     "score": 1270,
+     "steps": 121,
+     "maxSteps": 1000,
+     "pellets": 115,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100027,
+     "score": 1440,
+     "steps": 146,
+     "maxSteps": 1000,
+     "pellets": 128,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100028,
+     "score": 210,
+     "steps": 21,
+     "maxSteps": 1000,
+     "pellets": 21,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100029,
+     "score": 2000,
+     "steps": 286,
+     "maxSteps": 1000,
+     "pellets": 180,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100030,
+     "score": 460,
+     "steps": 49,
+     "maxSteps": 1000,
+     "pellets": 46,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100031,
+     "score": 950,
+     "steps": 88,
+     "maxSteps": 1000,
+     "pellets": 83,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100032,
+     "score": 1150,
+     "steps": 132,
+     "maxSteps": 1000,
+     "pellets": 107,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100033,
+     "score": 310,
+     "steps": 27,
+     "maxSteps": 1000,
+     "pellets": 27,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100034,
+     "score": 660,
+     "steps": 69,
+     "maxSteps": 1000,
+     "pellets": 58,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100035,
+     "score": 3590,
+     "steps": 276,
+     "maxSteps": 1000,
+     "pellets": 195,
+     "ghostsEaten": 2,
+     "cleared": true,
+     "alive": true
+    },
+    {
+     "seed": 2100036,
+     "score": 1210,
+     "steps": 139,
+     "maxSteps": 1000,
+     "pellets": 109,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100037,
+     "score": 2030,
+     "steps": 194,
+     "maxSteps": 1000,
+     "pellets": 163,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100038,
+     "score": 2210,
+     "steps": 281,
+     "maxSteps": 1000,
+     "pellets": 197,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100039,
+     "score": 1260,
+     "steps": 134,
+     "maxSteps": 1000,
+     "pellets": 114,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100040,
+     "score": 640,
+     "steps": 61,
+     "maxSteps": 1000,
+     "pellets": 60,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100041,
+     "score": 670,
+     "steps": 66,
+     "maxSteps": 1000,
+     "pellets": 59,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100042,
+     "score": 210,
+     "steps": 21,
+     "maxSteps": 1000,
+     "pellets": 21,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100043,
+     "score": 360,
+     "steps": 36,
+     "maxSteps": 1000,
+     "pellets": 36,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100044,
+     "score": 1510,
+     "steps": 142,
+     "maxSteps": 1000,
+     "pellets": 119,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100045,
+     "score": 700,
+     "steps": 73,
+     "maxSteps": 1000,
+     "pellets": 62,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100046,
+     "score": 1220,
+     "steps": 133,
+     "maxSteps": 1000,
+     "pellets": 110,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100047,
+     "score": 770,
+     "steps": 81,
+     "maxSteps": 1000,
+     "pellets": 73,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100048,
+     "score": 1900,
+     "steps": 226,
+     "maxSteps": 1000,
+     "pellets": 170,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100049,
+     "score": 680,
+     "steps": 76,
+     "maxSteps": 1000,
+     "pellets": 64,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100050,
+     "score": 820,
+     "steps": 90,
+     "maxSteps": 1000,
+     "pellets": 74,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100051,
+     "score": 680,
+     "steps": 71,
+     "maxSteps": 1000,
+     "pellets": 64,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100052,
+     "score": 3570,
+     "steps": 265,
+     "maxSteps": 1000,
+     "pellets": 193,
+     "ghostsEaten": 2,
+     "cleared": true,
+     "alive": true
+    },
+    {
+     "seed": 2100053,
+     "score": 720,
+     "steps": 67,
+     "maxSteps": 1000,
+     "pellets": 64,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100054,
+     "score": 2090,
+     "steps": 220,
+     "maxSteps": 1000,
+     "pellets": 169,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100055,
+     "score": 1340,
+     "steps": 145,
+     "maxSteps": 1000,
+     "pellets": 122,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100056,
+     "score": 970,
+     "steps": 98,
+     "maxSteps": 1000,
+     "pellets": 89,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100057,
+     "score": 700,
+     "steps": 74,
+     "maxSteps": 1000,
+     "pellets": 66,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100058,
+     "score": 810,
+     "steps": 78,
+     "maxSteps": 1000,
+     "pellets": 73,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100059,
+     "score": 1050,
+     "steps": 86,
+     "maxSteps": 1000,
+     "pellets": 77,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100060,
+     "score": 1460,
+     "steps": 147,
+     "maxSteps": 1000,
+     "pellets": 130,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100061,
+     "score": 1880,
+     "steps": 171,
+     "maxSteps": 1000,
+     "pellets": 148,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100062,
+     "score": 1820,
+     "steps": 193,
+     "maxSteps": 1000,
+     "pellets": 146,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100063,
+     "score": 1510,
+     "steps": 153,
+     "maxSteps": 1000,
+     "pellets": 135,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100064,
+     "score": 170,
+     "steps": 17,
+     "maxSteps": 1000,
+     "pellets": 17,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100065,
+     "score": 1020,
+     "steps": 101,
+     "maxSteps": 1000,
+     "pellets": 94,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100066,
+     "score": 1040,
+     "steps": 111,
+     "maxSteps": 1000,
+     "pellets": 96,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100067,
+     "score": 3190,
+     "steps": 267,
+     "maxSteps": 1000,
+     "pellets": 195,
+     "ghostsEaten": 0,
+     "cleared": true,
+     "alive": true
+    },
+    {
+     "seed": 2100068,
+     "score": 2420,
+     "steps": 237,
+     "maxSteps": 1000,
+     "pellets": 182,
+     "ghostsEaten": 2,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100069,
+     "score": 2050,
+     "steps": 281,
+     "maxSteps": 1000,
+     "pellets": 181,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100070,
+     "score": 2340,
+     "steps": 263,
+     "maxSteps": 1000,
+     "pellets": 190,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100071,
+     "score": 620,
+     "steps": 71,
+     "maxSteps": 1000,
+     "pellets": 58,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100072,
+     "score": 1810,
+     "steps": 186,
+     "maxSteps": 1000,
+     "pellets": 165,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100073,
+     "score": 510,
+     "steps": 56,
+     "maxSteps": 1000,
+     "pellets": 51,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100074,
+     "score": 1460,
+     "steps": 157,
+     "maxSteps": 1000,
+     "pellets": 130,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100075,
+     "score": 1800,
+     "steps": 201,
+     "maxSteps": 1000,
+     "pellets": 160,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100076,
+     "score": 800,
+     "steps": 82,
+     "maxSteps": 1000,
+     "pellets": 72,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100077,
+     "score": 780,
+     "steps": 73,
+     "maxSteps": 1000,
+     "pellets": 70,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100078,
+     "score": 820,
+     "steps": 89,
+     "maxSteps": 1000,
+     "pellets": 74,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100079,
+     "score": 720,
+     "steps": 71,
+     "maxSteps": 1000,
+     "pellets": 68,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100080,
+     "score": 1310,
+     "steps": 117,
+     "maxSteps": 1000,
+     "pellets": 115,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100081,
+     "score": 480,
+     "steps": 51,
+     "maxSteps": 1000,
+     "pellets": 48,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100082,
+     "score": 110,
+     "steps": 11,
+     "maxSteps": 1000,
+     "pellets": 11,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100083,
+     "score": 3410,
+     "steps": 242,
+     "maxSteps": 1000,
+     "pellets": 197,
+     "ghostsEaten": 1,
+     "cleared": true,
+     "alive": true
+    },
+    {
+     "seed": 2100084,
+     "score": 3410,
+     "steps": 257,
+     "maxSteps": 1000,
+     "pellets": 197,
+     "ghostsEaten": 1,
+     "cleared": true,
+     "alive": true
+    },
+    {
+     "seed": 2100085,
+     "score": 940,
+     "steps": 88,
+     "maxSteps": 1000,
+     "pellets": 86,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100086,
+     "score": 3240,
+     "steps": 281,
+     "maxSteps": 1000,
+     "pellets": 200,
+     "ghostsEaten": 0,
+     "cleared": true,
+     "alive": true
+    },
+    {
+     "seed": 2100087,
+     "score": 540,
+     "steps": 50,
+     "maxSteps": 1000,
+     "pellets": 50,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100088,
+     "score": 230,
+     "steps": 23,
+     "maxSteps": 1000,
+     "pellets": 23,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100089,
+     "score": 1740,
+     "steps": 183,
+     "maxSteps": 1000,
+     "pellets": 138,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100090,
+     "score": 480,
+     "steps": 49,
+     "maxSteps": 1000,
+     "pellets": 48,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100091,
+     "score": 2180,
+     "steps": 282,
+     "maxSteps": 1000,
+     "pellets": 194,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100092,
+     "score": 1110,
+     "steps": 134,
+     "maxSteps": 1000,
+     "pellets": 99,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100093,
+     "score": 580,
+     "steps": 59,
+     "maxSteps": 1000,
+     "pellets": 50,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100094,
+     "score": 1000,
+     "steps": 81,
+     "maxSteps": 1000,
+     "pellets": 72,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100095,
+     "score": 1780,
+     "steps": 196,
+     "maxSteps": 1000,
+     "pellets": 138,
+     "ghostsEaten": 1,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100096,
+     "score": 1360,
+     "steps": 173,
+     "maxSteps": 1000,
+     "pellets": 120,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100097,
+     "score": 3370,
+     "steps": 258,
+     "maxSteps": 1000,
+     "pellets": 193,
+     "ghostsEaten": 1,
+     "cleared": true,
+     "alive": true
+    },
+    {
+     "seed": 2100098,
+     "score": 850,
+     "steps": 74,
+     "maxSteps": 1000,
+     "pellets": 73,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100099,
+     "score": 3570,
+     "steps": 253,
+     "maxSteps": 1000,
+     "pellets": 193,
+     "ghostsEaten": 2,
+     "cleared": true,
+     "alive": true
+    },
+    {
+     "seed": 2100100,
+     "score": 1460,
+     "steps": 168,
+     "maxSteps": 1000,
+     "pellets": 134,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    }
+   ],
+   "label": "handwritten greedy-pellet baseline"
+  },
+  {
+   "controller": "random",
+   "courses": 100,
+   "cleared": 0,
+   "meanScore": 250,
+   "meanSteps": 92.63,
+   "meanPellets": 22.76,
+   "results": [
+    {
+     "seed": 2100001,
+     "score": 270,
+     "steps": 76,
+     "maxSteps": 1000,
+     "pellets": 27,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100002,
+     "score": 100,
+     "steps": 62,
+     "maxSteps": 1000,
+     "pellets": 10,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100003,
+     "score": 140,
+     "steps": 66,
+     "maxSteps": 1000,
+     "pellets": 14,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100004,
+     "score": 270,
+     "steps": 60,
+     "maxSteps": 1000,
+     "pellets": 23,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100005,
+     "score": 170,
+     "steps": 61,
+     "maxSteps": 1000,
+     "pellets": 17,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100006,
+     "score": 240,
+     "steps": 107,
+     "maxSteps": 1000,
+     "pellets": 20,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100007,
+     "score": 220,
+     "steps": 93,
+     "maxSteps": 1000,
+     "pellets": 18,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100008,
+     "score": 220,
+     "steps": 88,
+     "maxSteps": 1000,
+     "pellets": 22,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100009,
+     "score": 190,
+     "steps": 79,
+     "maxSteps": 1000,
+     "pellets": 15,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100010,
+     "score": 360,
+     "steps": 108,
+     "maxSteps": 1000,
+     "pellets": 32,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100011,
+     "score": 90,
+     "steps": 27,
+     "maxSteps": 1000,
+     "pellets": 9,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100012,
+     "score": 190,
+     "steps": 59,
+     "maxSteps": 1000,
+     "pellets": 15,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100013,
+     "score": 170,
+     "steps": 99,
+     "maxSteps": 1000,
+     "pellets": 13,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100014,
+     "score": 80,
+     "steps": 33,
+     "maxSteps": 1000,
+     "pellets": 8,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100015,
+     "score": 240,
+     "steps": 126,
+     "maxSteps": 1000,
+     "pellets": 24,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100016,
+     "score": 320,
+     "steps": 167,
+     "maxSteps": 1000,
+     "pellets": 28,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100017,
+     "score": 290,
+     "steps": 113,
+     "maxSteps": 1000,
+     "pellets": 29,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100018,
+     "score": 460,
+     "steps": 159,
+     "maxSteps": 1000,
+     "pellets": 38,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100019,
+     "score": 150,
+     "steps": 75,
+     "maxSteps": 1000,
+     "pellets": 15,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100020,
+     "score": 200,
+     "steps": 59,
+     "maxSteps": 1000,
+     "pellets": 20,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100021,
+     "score": 210,
+     "steps": 67,
+     "maxSteps": 1000,
+     "pellets": 17,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100022,
+     "score": 230,
+     "steps": 75,
+     "maxSteps": 1000,
+     "pellets": 23,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100023,
+     "score": 330,
+     "steps": 90,
+     "maxSteps": 1000,
+     "pellets": 33,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100024,
+     "score": 140,
+     "steps": 75,
+     "maxSteps": 1000,
+     "pellets": 14,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100025,
+     "score": 270,
+     "steps": 114,
+     "maxSteps": 1000,
+     "pellets": 27,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100026,
+     "score": 230,
+     "steps": 70,
+     "maxSteps": 1000,
+     "pellets": 23,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100027,
+     "score": 280,
+     "steps": 89,
+     "maxSteps": 1000,
+     "pellets": 24,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100028,
+     "score": 230,
+     "steps": 107,
+     "maxSteps": 1000,
+     "pellets": 23,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100029,
+     "score": 90,
+     "steps": 37,
+     "maxSteps": 1000,
+     "pellets": 9,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100030,
+     "score": 460,
+     "steps": 101,
+     "maxSteps": 1000,
+     "pellets": 42,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100031,
+     "score": 210,
+     "steps": 75,
+     "maxSteps": 1000,
+     "pellets": 17,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100032,
+     "score": 400,
+     "steps": 92,
+     "maxSteps": 1000,
+     "pellets": 36,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100033,
+     "score": 90,
+     "steps": 59,
+     "maxSteps": 1000,
+     "pellets": 9,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100034,
+     "score": 150,
+     "steps": 63,
+     "maxSteps": 1000,
+     "pellets": 15,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100035,
+     "score": 580,
+     "steps": 183,
+     "maxSteps": 1000,
+     "pellets": 50,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100036,
+     "score": 80,
+     "steps": 68,
+     "maxSteps": 1000,
+     "pellets": 8,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100037,
+     "score": 570,
+     "steps": 164,
+     "maxSteps": 1000,
+     "pellets": 49,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100038,
+     "score": 190,
+     "steps": 89,
+     "maxSteps": 1000,
+     "pellets": 19,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100039,
+     "score": 90,
+     "steps": 16,
+     "maxSteps": 1000,
+     "pellets": 9,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100040,
+     "score": 170,
+     "steps": 92,
+     "maxSteps": 1000,
+     "pellets": 17,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100041,
+     "score": 170,
+     "steps": 63,
+     "maxSteps": 1000,
+     "pellets": 17,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100042,
+     "score": 470,
+     "steps": 87,
+     "maxSteps": 1000,
+     "pellets": 43,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100043,
+     "score": 140,
+     "steps": 68,
+     "maxSteps": 1000,
+     "pellets": 10,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100044,
+     "score": 300,
+     "steps": 92,
+     "maxSteps": 1000,
+     "pellets": 26,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100045,
+     "score": 150,
+     "steps": 31,
+     "maxSteps": 1000,
+     "pellets": 15,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100046,
+     "score": 450,
+     "steps": 175,
+     "maxSteps": 1000,
+     "pellets": 37,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100047,
+     "score": 180,
+     "steps": 68,
+     "maxSteps": 1000,
+     "pellets": 18,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100048,
+     "score": 120,
+     "steps": 65,
+     "maxSteps": 1000,
+     "pellets": 12,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100049,
+     "score": 330,
+     "steps": 206,
+     "maxSteps": 1000,
+     "pellets": 29,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100050,
+     "score": 290,
+     "steps": 88,
+     "maxSteps": 1000,
+     "pellets": 29,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100051,
+     "score": 270,
+     "steps": 82,
+     "maxSteps": 1000,
+     "pellets": 23,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100052,
+     "score": 520,
+     "steps": 191,
+     "maxSteps": 1000,
+     "pellets": 44,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100053,
+     "score": 160,
+     "steps": 61,
+     "maxSteps": 1000,
+     "pellets": 16,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100054,
+     "score": 70,
+     "steps": 24,
+     "maxSteps": 1000,
+     "pellets": 7,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100055,
+     "score": 420,
+     "steps": 194,
+     "maxSteps": 1000,
+     "pellets": 38,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100056,
+     "score": 140,
+     "steps": 37,
+     "maxSteps": 1000,
+     "pellets": 14,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100057,
+     "score": 350,
+     "steps": 122,
+     "maxSteps": 1000,
+     "pellets": 31,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100058,
+     "score": 350,
+     "steps": 119,
+     "maxSteps": 1000,
+     "pellets": 31,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100059,
+     "score": 260,
+     "steps": 107,
+     "maxSteps": 1000,
+     "pellets": 26,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100060,
+     "score": 220,
+     "steps": 151,
+     "maxSteps": 1000,
+     "pellets": 18,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100061,
+     "score": 390,
+     "steps": 186,
+     "maxSteps": 1000,
+     "pellets": 35,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100062,
+     "score": 110,
+     "steps": 44,
+     "maxSteps": 1000,
+     "pellets": 11,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100063,
+     "score": 290,
+     "steps": 117,
+     "maxSteps": 1000,
+     "pellets": 29,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100064,
+     "score": 240,
+     "steps": 77,
+     "maxSteps": 1000,
+     "pellets": 24,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100065,
+     "score": 210,
+     "steps": 105,
+     "maxSteps": 1000,
+     "pellets": 21,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100066,
+     "score": 100,
+     "steps": 18,
+     "maxSteps": 1000,
+     "pellets": 10,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100067,
+     "score": 260,
+     "steps": 111,
+     "maxSteps": 1000,
+     "pellets": 22,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100068,
+     "score": 160,
+     "steps": 84,
+     "maxSteps": 1000,
+     "pellets": 16,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100069,
+     "score": 220,
+     "steps": 115,
+     "maxSteps": 1000,
+     "pellets": 18,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100070,
+     "score": 160,
+     "steps": 65,
+     "maxSteps": 1000,
+     "pellets": 16,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100071,
+     "score": 150,
+     "steps": 87,
+     "maxSteps": 1000,
+     "pellets": 15,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100072,
+     "score": 430,
+     "steps": 93,
+     "maxSteps": 1000,
+     "pellets": 35,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100073,
+     "score": 410,
+     "steps": 177,
+     "maxSteps": 1000,
+     "pellets": 37,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100074,
+     "score": 230,
+     "steps": 99,
+     "maxSteps": 1000,
+     "pellets": 23,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100075,
+     "score": 170,
+     "steps": 38,
+     "maxSteps": 1000,
+     "pellets": 13,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100076,
+     "score": 270,
+     "steps": 78,
+     "maxSteps": 1000,
+     "pellets": 23,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100077,
+     "score": 110,
+     "steps": 42,
+     "maxSteps": 1000,
+     "pellets": 7,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100078,
+     "score": 190,
+     "steps": 43,
+     "maxSteps": 1000,
+     "pellets": 15,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100079,
+     "score": 700,
+     "steps": 324,
+     "maxSteps": 1000,
+     "pellets": 58,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100080,
+     "score": 240,
+     "steps": 89,
+     "maxSteps": 1000,
+     "pellets": 24,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100081,
+     "score": 270,
+     "steps": 64,
+     "maxSteps": 1000,
+     "pellets": 27,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100082,
+     "score": 140,
+     "steps": 30,
+     "maxSteps": 1000,
+     "pellets": 14,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100083,
+     "score": 140,
+     "steps": 28,
+     "maxSteps": 1000,
+     "pellets": 14,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100084,
+     "score": 90,
+     "steps": 35,
+     "maxSteps": 1000,
+     "pellets": 9,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100085,
+     "score": 600,
+     "steps": 155,
+     "maxSteps": 1000,
+     "pellets": 48,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100086,
+     "score": 290,
+     "steps": 77,
+     "maxSteps": 1000,
+     "pellets": 25,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100087,
+     "score": 380,
+     "steps": 181,
+     "maxSteps": 1000,
+     "pellets": 34,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100088,
+     "score": 190,
+     "steps": 41,
+     "maxSteps": 1000,
+     "pellets": 19,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100089,
+     "score": 180,
+     "steps": 98,
+     "maxSteps": 1000,
+     "pellets": 14,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100090,
+     "score": 320,
+     "steps": 102,
+     "maxSteps": 1000,
+     "pellets": 32,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100091,
+     "score": 180,
+     "steps": 73,
+     "maxSteps": 1000,
+     "pellets": 18,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100092,
+     "score": 360,
+     "steps": 101,
+     "maxSteps": 1000,
+     "pellets": 32,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100093,
+     "score": 280,
+     "steps": 54,
+     "maxSteps": 1000,
+     "pellets": 24,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100094,
+     "score": 170,
+     "steps": 78,
+     "maxSteps": 1000,
+     "pellets": 13,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100095,
+     "score": 150,
+     "steps": 93,
+     "maxSteps": 1000,
+     "pellets": 15,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100096,
+     "score": 330,
+     "steps": 144,
+     "maxSteps": 1000,
+     "pellets": 29,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100097,
+     "score": 110,
+     "steps": 91,
+     "maxSteps": 1000,
+     "pellets": 11,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100098,
+     "score": 210,
+     "steps": 79,
+     "maxSteps": 1000,
+     "pellets": 21,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100099,
+     "score": 420,
+     "steps": 183,
+     "maxSteps": 1000,
+     "pellets": 38,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100100,
+     "score": 420,
+     "steps": 90,
+     "maxSteps": 1000,
+     "pellets": 42,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    }
+   ],
+   "label": "uniform random actions"
+  },
+  {
+   "controller": "idle",
+   "courses": 100,
+   "cleared": 0,
+   "meanScore": 23.3,
+   "meanSteps": 78.24,
+   "meanPellets": 2.13,
+   "results": [
+    {
+     "seed": 2100001,
+     "score": 10,
+     "steps": 77,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100002,
+     "score": 10,
+     "steps": 58,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100003,
+     "score": 70,
+     "steps": 26,
+     "maxSteps": 1000,
+     "pellets": 7,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100004,
+     "score": 0,
+     "steps": 45,
+     "maxSteps": 1000,
+     "pellets": 0,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100005,
+     "score": 10,
+     "steps": 66,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100006,
+     "score": 10,
+     "steps": 83,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100007,
+     "score": 0,
+     "steps": 93,
+     "maxSteps": 1000,
+     "pellets": 0,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100008,
+     "score": 10,
+     "steps": 102,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100009,
+     "score": 10,
+     "steps": 78,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100010,
+     "score": 10,
+     "steps": 31,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100011,
+     "score": 20,
+     "steps": 53,
+     "maxSteps": 1000,
+     "pellets": 2,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100012,
+     "score": 10,
+     "steps": 61,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100013,
+     "score": 10,
+     "steps": 87,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100014,
+     "score": 20,
+     "steps": 47,
+     "maxSteps": 1000,
+     "pellets": 2,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100015,
+     "score": 10,
+     "steps": 107,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100016,
+     "score": 60,
+     "steps": 74,
+     "maxSteps": 1000,
+     "pellets": 6,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100017,
+     "score": 20,
+     "steps": 41,
+     "maxSteps": 1000,
+     "pellets": 2,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100018,
+     "score": 10,
+     "steps": 94,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100019,
+     "score": 10,
+     "steps": 95,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100020,
+     "score": 10,
+     "steps": 63,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100021,
+     "score": 50,
+     "steps": 71,
+     "maxSteps": 1000,
+     "pellets": 5,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100022,
+     "score": 40,
+     "steps": 75,
+     "maxSteps": 1000,
+     "pellets": 4,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100023,
+     "score": 10,
+     "steps": 63,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100024,
+     "score": 10,
+     "steps": 71,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100025,
+     "score": 10,
+     "steps": 87,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100026,
+     "score": 10,
+     "steps": 79,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100027,
+     "score": 20,
+     "steps": 67,
+     "maxSteps": 1000,
+     "pellets": 2,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100028,
+     "score": 20,
+     "steps": 101,
+     "maxSteps": 1000,
+     "pellets": 2,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100029,
+     "score": 40,
+     "steps": 38,
+     "maxSteps": 1000,
+     "pellets": 4,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100030,
+     "score": 10,
+     "steps": 150,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100031,
+     "score": 10,
+     "steps": 62,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100032,
+     "score": 90,
+     "steps": 95,
+     "maxSteps": 1000,
+     "pellets": 5,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100033,
+     "score": 10,
+     "steps": 62,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100034,
+     "score": 10,
+     "steps": 91,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100035,
+     "score": 10,
+     "steps": 75,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100036,
+     "score": 10,
+     "steps": 61,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100037,
+     "score": 40,
+     "steps": 70,
+     "maxSteps": 1000,
+     "pellets": 4,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100038,
+     "score": 10,
+     "steps": 99,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100039,
+     "score": 40,
+     "steps": 19,
+     "maxSteps": 1000,
+     "pellets": 4,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100040,
+     "score": 10,
+     "steps": 85,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100041,
+     "score": 10,
+     "steps": 83,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100042,
+     "score": 20,
+     "steps": 97,
+     "maxSteps": 1000,
+     "pellets": 2,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100043,
+     "score": 10,
+     "steps": 66,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100044,
+     "score": 20,
+     "steps": 114,
+     "maxSteps": 1000,
+     "pellets": 2,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100045,
+     "score": 170,
+     "steps": 91,
+     "maxSteps": 1000,
+     "pellets": 13,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100046,
+     "score": 10,
+     "steps": 109,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100047,
+     "score": 80,
+     "steps": 51,
+     "maxSteps": 1000,
+     "pellets": 8,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100048,
+     "score": 40,
+     "steps": 57,
+     "maxSteps": 1000,
+     "pellets": 4,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100049,
+     "score": 70,
+     "steps": 99,
+     "maxSteps": 1000,
+     "pellets": 7,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100050,
+     "score": 10,
+     "steps": 75,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100051,
+     "score": 10,
+     "steps": 82,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100052,
+     "score": 40,
+     "steps": 107,
+     "maxSteps": 1000,
+     "pellets": 4,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100053,
+     "score": 30,
+     "steps": 55,
+     "maxSteps": 1000,
+     "pellets": 3,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100054,
+     "score": 10,
+     "steps": 21,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100055,
+     "score": 10,
+     "steps": 89,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100056,
+     "score": 10,
+     "steps": 25,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100057,
+     "score": 10,
+     "steps": 83,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100058,
+     "score": 10,
+     "steps": 179,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100059,
+     "score": 20,
+     "steps": 103,
+     "maxSteps": 1000,
+     "pellets": 2,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100060,
+     "score": 50,
+     "steps": 107,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100061,
+     "score": 30,
+     "steps": 115,
+     "maxSteps": 1000,
+     "pellets": 3,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100062,
+     "score": 10,
+     "steps": 46,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100063,
+     "score": 10,
+     "steps": 97,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100064,
+     "score": 10,
+     "steps": 93,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100065,
+     "score": 10,
+     "steps": 70,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100066,
+     "score": 10,
+     "steps": 45,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100067,
+     "score": 70,
+     "steps": 77,
+     "maxSteps": 1000,
+     "pellets": 7,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100068,
+     "score": 10,
+     "steps": 90,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100069,
+     "score": 10,
+     "steps": 75,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100070,
+     "score": 10,
+     "steps": 67,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100071,
+     "score": 50,
+     "steps": 90,
+     "maxSteps": 1000,
+     "pellets": 5,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100072,
+     "score": 40,
+     "steps": 74,
+     "maxSteps": 1000,
+     "pellets": 4,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100073,
+     "score": 20,
+     "steps": 95,
+     "maxSteps": 1000,
+     "pellets": 2,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100074,
+     "score": 10,
+     "steps": 106,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100075,
+     "score": 50,
+     "steps": 31,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100076,
+     "score": 10,
+     "steps": 33,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100077,
+     "score": 50,
+     "steps": 45,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100078,
+     "score": 10,
+     "steps": 50,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100079,
+     "score": 10,
+     "steps": 99,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100080,
+     "score": 20,
+     "steps": 94,
+     "maxSteps": 1000,
+     "pellets": 2,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100081,
+     "score": 20,
+     "steps": 95,
+     "maxSteps": 1000,
+     "pellets": 2,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100082,
+     "score": 10,
+     "steps": 59,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100083,
+     "score": 40,
+     "steps": 67,
+     "maxSteps": 1000,
+     "pellets": 4,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100084,
+     "score": 30,
+     "steps": 43,
+     "maxSteps": 1000,
+     "pellets": 3,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100085,
+     "score": 30,
+     "steps": 109,
+     "maxSteps": 1000,
+     "pellets": 3,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100086,
+     "score": 20,
+     "steps": 69,
+     "maxSteps": 1000,
+     "pellets": 2,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100087,
+     "score": 10,
+     "steps": 109,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100088,
+     "score": 20,
+     "steps": 62,
+     "maxSteps": 1000,
+     "pellets": 2,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100089,
+     "score": 120,
+     "steps": 191,
+     "maxSteps": 1000,
+     "pellets": 12,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100090,
+     "score": 20,
+     "steps": 75,
+     "maxSteps": 1000,
+     "pellets": 2,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100091,
+     "score": 10,
+     "steps": 55,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100092,
+     "score": 10,
+     "steps": 86,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100093,
+     "score": 20,
+     "steps": 55,
+     "maxSteps": 1000,
+     "pellets": 2,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100094,
+     "score": 10,
+     "steps": 85,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100095,
+     "score": 20,
+     "steps": 90,
+     "maxSteps": 1000,
+     "pellets": 2,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100096,
+     "score": 10,
+     "steps": 73,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100097,
+     "score": 10,
+     "steps": 70,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100098,
+     "score": 10,
+     "steps": 63,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100099,
+     "score": 30,
+     "steps": 107,
+     "maxSteps": 1000,
+     "pellets": 3,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    },
+    {
+     "seed": 2100100,
+     "score": 10,
+     "steps": 174,
+     "maxSteps": 1000,
+     "pellets": 1,
+     "ghostsEaten": 0,
+     "cleared": false,
+     "alive": false
+    }
+   ],
+   "label": "idle"
+  }
+ ]
+}

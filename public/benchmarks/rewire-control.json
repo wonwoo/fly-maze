@@ -1,0 +1,51 @@
+{
+ "seeds": {
+  "first": 2100001,
+  "count": 300
+ },
+ "replicates": 5,
+ "rows": [
+  {
+   "label": "measured circuit and pathway",
+   "cleared": 61,
+   "meanScore": 1816.5333333333333,
+   "meanPellets": 133.65333333333334
+  },
+  {
+   "label": "both rewired, replicate 1",
+   "cleared": 0,
+   "meanScore": 45.2,
+   "meanPellets": 3.96
+  },
+  {
+   "label": "both rewired, replicate 2",
+   "cleared": 0,
+   "meanScore": 62.06666666666667,
+   "meanPellets": 5.14
+  },
+  {
+   "label": "both rewired, replicate 3",
+   "cleared": 0,
+   "meanScore": 41.56666666666667,
+   "meanPellets": 3.703333333333333
+  },
+  {
+   "label": "both rewired, replicate 4",
+   "cleared": 0,
+   "meanScore": 104.2,
+   "meanPellets": 9.033333333333333
+  },
+  {
+   "label": "both rewired, replicate 5",
+   "cleared": 0,
+   "meanScore": 38.9,
+   "meanPellets": 3.3566666666666665
+  },
+  {
+   "label": "main circuit silenced",
+   "cleared": 0,
+   "meanScore": 40.86666666666667,
+   "meanPellets": 3.58
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+node_modules
+dist
+.DS_Store
+*.feather
+.idea
+__pycache__

@@ -1,0 +1,35 @@
+{
+  "name": "fly-maze",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A fixed MaleCNS connectome circuit steers a maze game through a small trained readout.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run && tsx scripts/check-assets.ts",
+    "typecheck": "tsc --noEmit",
+    "train": "tsx scripts/train.ts",
+    "train-policy": "tsx scripts/train-policy.ts",
+    "benchmark": "tsx scripts/benchmark.ts",
+    "control:rewire": "tsx scripts/control-rewire.ts",
+    "control:weights": "tsx scripts/control-weights.ts",
+    "validate:escape": "tsx scripts/validate-escape.ts",
+    "generalization": "tsx scripts/generalization.ts",
+    "probe": "tsx scripts/probe.ts",
+    "cem-noise": "tsx scripts/cem-noise.ts",
+    "experiment": "tsx scripts/experiment.ts",
+    "tune:temperature": "tsx scripts/tune-temperature.ts",
+    "build:connectome": "uv run --with pyarrow --with pandas --with numpy python scripts/build-connectome.py",
+    "build:escape": "uv run --with pyarrow --with pandas --with numpy python scripts/build-escape-circuit.py",
+    "check:assets": "tsx scripts/check-assets.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.3",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.0",
+    "vitest": "^5.0.1"
+  }
+}
