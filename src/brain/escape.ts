@@ -12,8 +12,9 @@ const RESOLUTION = 65;
  * giant-fibre cells are driven by their own side's looming population. The measured drive onto
  * the giant fibres keeps that separation: of the 284 retained edges from looming cells onto the
  * two DNp01 cells, 155 run left to left and 129 right to right, and none cross. The graph around
- * them does cross, with 14,468 of its 74,697 edges running between the hemispheres, so what is
- * separate is the looming-to-giant-fibre drive rather than the circuit as a whole.
+ * them does cross, with 14,011 of its 74,697 edges running between the hemispheres and 457 more
+ * joining a midline cell to one side, so what is separate is the looming-to-giant-fibre drive
+ * rather than the circuit as a whole.
  *
  * What that separation buys is narrow, and the comment here used to claim more than it should.
  * Those crossing edges reach the giant fibres with almost nothing: raising the opposite drive
@@ -24,10 +25,11 @@ const RESOLUTION = 65;
  * replacements on the hundred held-out courses, the pathway is worth little: 112.55 pellets
  * with it, 110.27 with the channels held at zero, 111.84 with its edges shuffled.
  *
- * It is kept because it is the only place the readout learns absolute distance from. The
- * `threat` feature channel is relative, so the most dangerous direction reads 1 whether the
- * ghost is two steps away or fifty; a least-squares probe recovers ghost distance from those
- * four channels at R2 -0.001 and from these four at R2 0.181 (scripts/probe.ts).
+ * It was kept because, while it was in the loop, it was the only place the readout learned
+ * absolute distance from. The `threat` feature channel is relative, so the most dangerous
+ * direction reads 1 whether the ghost is two steps away or fifty; a least-squares probe recovers
+ * ghost distance from those four channels at R2 -0.001 and from the proximity gate that replaced
+ * this pathway in the published checkpoint at R2 0.181 (scripts/probe.ts).
  */
 export class EscapePathway {
   private readonly leftLooming: number[] = [];
